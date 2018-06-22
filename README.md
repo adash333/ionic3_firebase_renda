@@ -19,6 +19,10 @@ export const environment = {
 };
 ```
 
+作成経過は以下に記載しています。
+
+http://twosquirrel.mints.ne.jp/?p=24596
+
 作成中です。
 
 
