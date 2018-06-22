@@ -1,14 +1,31 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Blank
+      連打ゲーム
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding class="grid-basic-page">
+  <button ion-button block color="secondary" (click)="goToRanking()">
+    ランキングを見る
+  </button>
+
+  <ion-row justify-content-center>
+    <button ion-button outline>連打数：<strong>{{counter}}</strong></button>
+  </ion-row>
+  
+  <ion-row justify-content-center>
+    <img src="assets/imgs/target.jpg" width="250" height="250" alt="mato" 
+    (click)="tapCount()">
+  </ion-row>
+
+  <ion-row justify-content-center>
+    <p>↓スタートボタンを押してゲームスタート↓</p>
+  </ion-row>
+
+  <ion-row justify-content-center>
+    <button ion-button block (click)="startGame()">START</button>
+  </ion-row>
+
 </ion-content>

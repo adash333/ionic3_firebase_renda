@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      ランキング
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-grid no-padding>
+  <ion-row text-center>
+    <ion-col col-2>
+      <div class="top">順位</div>
+    </ion-col>
+    <ion-col col-8>
+      <div class="top">お名前</div>
+    </ion-col>
+    <ion-col col-2>
+      <div class="top">記録</div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row *ngFor="let item of gameScores; index as i">
+    <ion-col col-2>
+      <div>{{i + 1}}位</div>
+    </ion-col>
+    <ion-col col-8>
+      <div>{{item.name}}</div>
+    </ion-col>
+    <ion-col col-2>
+      <div>{{item.score}}点</div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+</ion-content>
