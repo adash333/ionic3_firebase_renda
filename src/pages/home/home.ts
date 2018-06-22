@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { RankingPage } from '../ranking/ranking';
+//import { RankingPage } from '../ranking/ranking';
 import { AngularFireDatabase, AngularFireList} from 'angularfire2/database';
 import { GameScore } from '../../models/gameScore';
 
