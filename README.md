@@ -22,5 +22,5 @@ export const environment = {
 作成中です。
 
 
-【Monaca問題集】『オンラインランキング機能を作ってみよう！「連打ゲーム」』
+【Monaca問題集】『オンラインランキング機能を作ってみよう！「連打ゲーム」』  
 https://github.com/NIFCloud-mbaas/MonacaFirstApp
