@@ -4,7 +4,7 @@
 
 src/environments/environment.ts は、ご自身で作成して、ご自身のfirebaseのAPIキーその他をコピペしてください。
 
-<code>
+```javascript:environment.ts
 // <>となっている部分は、自分のapiKeyを入力
 export const environment = {
   production: false,
@@ -17,7 +17,7 @@ export const environment = {
     messagingSenderId: '<your-messaging-sender-id>'
   }
 };
-</code>
+```
 
 作成中です。
 
